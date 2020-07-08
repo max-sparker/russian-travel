@@ -1,0 +1,21 @@
+@import url('./__langs/header__langs.css');
+@import url('./__lang-item/header__lang-item.css');
+@import url('./__lang-link/header__lang-link.css');
+
+.header {
+  padding: 28px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .header {
+    padding: 28px 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding: 16px;
+  }
+}

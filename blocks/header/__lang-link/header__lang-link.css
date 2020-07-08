@@ -1,0 +1,10 @@
+@import url('./_active/header__lang-link_active.css');
+
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  border-bottom: 1px solid;
+}
