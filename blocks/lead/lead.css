@@ -1,0 +1,22 @@
+.lead {
+  padding: 28px 148px 92px;
+  border: 1px red;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lead {
+    padding: 0 48px 92px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-bottom: 64px;
+  }
+}
