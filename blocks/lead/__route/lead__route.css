@@ -1,0 +1,16 @@
+.lead__route {
+  margin: 64px auto 0;
+  width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__route {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .lead__route {
+    width: 100%;
+  }
+}
