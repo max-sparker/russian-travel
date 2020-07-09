@@ -1,6 +1,7 @@
+@import url(./__title/lead__title.css);
+
 .lead {
-  padding: 28px 148px 92px;
-  border: 1px red;
+  padding: 0 148px 92px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -11,12 +12,12 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
   .lead {
-    padding-bottom: 88px;
+    padding: 0 0 88px;
   }
 }
 
 @media (max-width: 425px) {
-  .header {
+  .lead {
     padding-bottom: 64px;
   }
 }

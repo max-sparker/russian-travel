@@ -7,7 +7,7 @@
   display: inline-flex;
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .header__langs {
     font-size: 18px;
     line-height: 1.33;
