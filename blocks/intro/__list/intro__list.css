@@ -1,6 +1,6 @@
 .intro__list {
   max-width: 690px;
-  margin: 32px 0 0;
+  margin: 32px 0 92px;
   list-style: none;
   padding: 0;
   color: #fff;
@@ -11,19 +11,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro__list {
-    margin: 32px 24px 0;
+    margin: 32px 24px 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro__list {
     max-width: 720px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro__list {
     max-width: 288px;
-    margin: 32px 16px 0;
+    margin: 32px 16px 64px;
   }
 }
