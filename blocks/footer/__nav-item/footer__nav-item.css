@@ -1,0 +1,10 @@
+.footer__nav-item + .footer__nav-item {
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__nav-item + .footer__nav-item {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
