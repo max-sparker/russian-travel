@@ -1,29 +1,9 @@
-@import url('./__overlay/cover__overlay.css');
+@import url('./__link/cover__link.css');
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 
 .cover {
   max-width: 1184px;
-  min-height: 740px;
   margin: 0 auto;
-  position: relative;
   background: url('../../images/cover-trains.jpg') center/cover no-repeat #2a2c2f;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    min-height: 200px;
-  }
 }
