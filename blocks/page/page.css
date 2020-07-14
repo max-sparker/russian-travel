@@ -1,5 +1,6 @@
 .page {
-  font-family: 'Inter', sans-serif;
+  min-width: 320px;
+  font-family: 'Inter', 'Arial', sans-serif;
   background: #2a2c2f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
